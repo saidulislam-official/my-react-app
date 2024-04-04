@@ -1,0 +1,59 @@
+.App-header{
+    background-color: #282c34;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+    color: whitesmoke;
+
+}
+.App-header ul li{
+    display: inline;
+    margin: 60px;
+}
+
+.App-body{
+    padding: 50px 150px;
+    background-color: #dde2ec;
+}
+.body-header{
+    margin: 0;
+    color: #2b65d8;
+}
+.from-test{
+    margin: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+    gap: 10px;
+}
+
+.from-test label{
+  font-weight: 500;
+}
+.from-test input{
+  font-weight: bolder;
+}
+
+#image-header{
+    text-align: center;
+    font-style: italic;
+    color: rgb(221, 218, 9);
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+
+}
+
+img{
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    border-radius: 5%;
+    margin: 10px;
+}
